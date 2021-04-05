@@ -3,13 +3,11 @@ About r-pgirmess
 
 Home: http://perso.orange.fr/giraudoux
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pgirmess-feedstock/blob/master/LICENSE.txt)
 
 Summary: Set of tools for reading, writing and transforming spatial and seasonal data in ecology, model selection and specific statistical tests. It includes functions to discretize polylines into regular point intervals, link observations to those points, compute geographical coordinates at regular intervals between waypoints, read subsets of big rasters, compute zonal statistics or table of categories within polygons or circular buffers from raster. The package also provides miscellaneous functions for model selection, spatial statistics, geometries, writing data.frame with Chinese characters, and some other functions for field ecologists.
-
-
 
 Current build status
 ====================
@@ -108,9 +106,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
