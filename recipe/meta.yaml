@@ -30,7 +30,7 @@ requirements:
     - r-rgdal >=0.7_8
     - r-rgeos >=0.3_8
     - r-sp >=0.9_97
-    - r-spdep >=0.5_43
+    - r-spdep >=1.1_7
     - r-splancs >=2.01_31
   run:
     - r-base
@@ -39,7 +39,7 @@ requirements:
     - r-rgdal >=0.7_8
     - r-rgeos >=0.3_8
     - r-sp >=0.9_97
-    - r-spdep >=0.5_43
+    - r-spdep >=1.1_7
     - r-splancs >=2.01_31
 
 test:
@@ -49,11 +49,12 @@ test:
 
 about:
   home: http://perso.orange.fr/giraudoux
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Set of tools for reading, writing and transforming spatial and seasonal data in ecology, model selection and specific statistical tests. It includes functions to discretize polylines into regular point intervals, link observations to those points, compute geographical coordinates at regular intervals between waypoints,
     read subsets of big rasters, compute zonal statistics or table of categories within polygons or circular buffers from raster. The package also provides miscellaneous functions for model selection, spatial statistics, geometries, writing data.frame with Chinese characters, and some other functions for field ecologists.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
