@@ -1,4 +1,4 @@
-{% set version = "1.7.1" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pgirmess_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pgirmess/pgirmess_{{ version }}.tar.gz
-  sha256: df2ab4d71ad67a7dbcddddfbc83739ad6485ca056a93756d962fc3c3edccb1c9
+  sha256: 9e4432305a3c37569633c2a01309ff7ca87d6d647911b60d9f62865ef5d525c8
 
 build:
   merge_build_host: true  # [win]
