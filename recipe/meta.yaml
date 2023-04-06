@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pgirmess_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pgirmess/pgirmess_{{ version }}.tar.gz
-  sha256: 9e4432305a3c37569633c2a01309ff7ca87d6d647911b60d9f62865ef5d525c8
+  sha256: fa13a4b59501fe3606a01d4102580a3bdf26a638dede836d485f8e1a6bf347a1
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
