@@ -1,11 +1,11 @@
-About r-pgirmess
-================
+About r-pgirmess-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pgirmess-feedstock/blob/main/LICENSE.txt)
 
 Home: http://perso.orange.fr/giraudoux
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pgirmess-feedstock/blob/main/LICENSE.txt)
 
 Summary: Set of tools for reading, writing and transforming spatial and seasonal data in ecology, model selection and specific statistical tests. It includes functions to discretize polylines into regular point intervals, link observations to those points, compute geographical coordinates at regular intervals between waypoints, read subsets of big rasters, compute zonal statistics or table of categories within polygons or circular buffers from raster. The package also provides miscellaneous functions for model selection, spatial statistics, geometries, writing data.frame with Chinese characters, and some other functions for field ecologists.
 
